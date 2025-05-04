@@ -1,0 +1,103 @@
+.login-container {
+    text-align: center;
+    padding: 2rem;
+    max-width: 450px;
+    margin: auto;
+  }
+  
+  .login-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: white;
+  }
+  
+  .login-box {
+    background: transparent;
+    padding: 2rem;
+  }
+  
+  .login-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .login-box p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .email-input {
+    padding: 0.75rem;
+    width: 94%;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .email-btn {
+    background-color: #2a003f;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .email-btn:hover {
+    background-color: #3e005f;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    color: white;
+  }
+  
+  .divider hr {
+    flex: 1;
+    height: 1px;
+    background: white;
+    border: none;
+  }
+  
+  .divider span {
+    margin: 0 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .google-btn {
+    background: white;
+    color: #333;
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .google-btn img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .termos {
+    font-size: 0.875rem;
+    margin-top: 1rem;
+    color: white;
+  }
+  
+  .termos a {
+    color: #ddddff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
