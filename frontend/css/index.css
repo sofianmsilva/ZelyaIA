@@ -1,3 +1,4 @@
+
 .login-container {
     text-align: center;
     padding: 2rem;
@@ -25,7 +26,7 @@
     margin-bottom: 1.5rem;
   }
   
-  .email-input {
+  .emailInput {
     padding: 0.75rem;
     width: 94%;
     border-radius: 8px;
@@ -34,7 +35,7 @@
     font-size: 1rem;
   }
   
-  .email-btn {
+  .emailBtn {
     background-color: #2a003f;
     color: white;
     border: none;
@@ -46,7 +47,7 @@
     transition: background 0.3s;
   }
   
-  .email-btn:hover {
+  .emailBtn:hover {
     background-color: #3e005f;
   }
   
@@ -69,7 +70,7 @@
     font-size: 0.9rem;
   }
   
-  .google-btn {
+  .visitante-btn {
     background: white;
     color: #333;
     width: 100%;
@@ -84,7 +85,7 @@
     cursor: pointer;
   }
   
-  .google-btn img {
+  .visitante-btn img {
     width: 20px;
     height: 20px;
   }

@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Zelya IA - Login</title>
+
+  <!-- Importa estilos globais e específicos da página de login -->
   <link rel="stylesheet" href="../common/global.css" />
   <link rel="stylesheet" href="../css/index.css" />
 </head>
+
 <body>
 
   <main class="login-container">
+    <!-- Título da página de login -->
     <h1>Bem-vindo ao <br><strong>Zelya IA</strong></h1>
 
     <section class="login-box">
+      <!-- Subtítulo e instruções de login -->
       <h2>Faça login na sua conta</h2>
       <p>Entre com seu <strong>email</strong> para entrar no site</p>
 
-      <input type="email" placeholder="email@domain.com" class="email-input" />
-      <button class="email-btn" onclick="window.location.href='upload.html'">Entrar com email</button>
-          
-    </div>
+      <!-- Campo para inserir o e-mail -->
+      <input type="email" placeholder="Digite seu e-mail" class="emailInput" />
 
+      <!-- Botão para enviar o e-mail e fazer login -->
+      <button class="emailBtn">Entrar</button>
+
+      <!-- Linha divisória com opção de login alternativo -->
       <div class="divider">
         <hr />
-        <span>ou continue com</span>
+        <span>ou continue como</span>
         <hr />
       </div>
-
-      <button class="google-btn">
-        <img src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google" />
-        Google
+      
+      <!-- Botão para entrar como visitante (sem login) -->
+      <button id="anonimoBtn" class="btn-google visitante-btn">
+        <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Ícone visitante" width="24" height="24">
+        Visitante
       </button>
 
+      <!-- Termos de uso e política de privacidade -->
       <p class="termos">
         Ao clicar em continuar, você concorda com os nossos
         <a href="#">Termos de Serviço</a> e
@@ -40,16 +50,21 @@
     </section>
   </main>
 
+  <!-- Rodapé com informações e links úteis -->
   <footer>
     <div class="footer-content">
-        <p>© 2025 Zelya IA — Todos os direitos reservados.</p>
-        <div class="footer-links">
-            <a href="#">GitHub</a>
-            <a href="#">Termos de Serviço</a>
-            <a href="#">Política de Privacidade</a>
-        </div>
+      <p>© 2025 Zelya IA — Todos os direitos reservados.</p>
+      <div class="footer-links">
+        <a href="#">GitHub</a>
+        <a href="#">Termos de Serviço</a>
+        <a href="#">Política de Privacidade</a>
+      </div>
     </div>
-</footer>
+  </footer>
+
+  <!-- Importa o script responsável pela lógica de login -->
+  <script src="../js/login.js"></script>
 
 </body>
+
 </html>

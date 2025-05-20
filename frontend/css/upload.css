@@ -1,6 +1,7 @@
-.back-button {
+
+  .back-button {
     position: absolute;
-    top: 20px;
+    top: 30px;
     left: 20px;
     font-size: 24px;
     text-decoration: none;
@@ -15,7 +16,7 @@
   .back-button:hover {
     background-color: rgba(255, 255, 255, 0.2);
   }
-  
+
 .upload-container {
     max-width: 800px;
     width: 100%;
@@ -53,7 +54,7 @@
   
   .upload-box small {
     display: block;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     color: #888;
   }
   
@@ -80,6 +81,7 @@
     object-fit: cover;
     background-color: #fff;
   }
+
   
   .uploading {
     display: flex;
