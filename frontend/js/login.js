@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('usuarioEmail', email);
 
     // Redireciona para a página de upload
-    window.location.href = 'upload.html';
+    window.location.href = '/pages/upload.html';
   });
 
   // Evento de clique no botão de login como visitante
@@ -37,6 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.setItem('usuarioAnonimo', true);
 
     // Redireciona também para a página de upload
-    window.location.href = 'upload.html';
+    window.location.href = '/pages/upload.html';
   });
 });
