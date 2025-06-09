@@ -213,8 +213,6 @@ interface AppContextType {
 
 ---
 
-Se quiser, posso revisar o resto do README também! Mas cola isso aí que agora vai certinho.
-
 ## 6. Casos de Uso e Fluxos de Usuário
 
 ### 6.1 Fluxo Principal
